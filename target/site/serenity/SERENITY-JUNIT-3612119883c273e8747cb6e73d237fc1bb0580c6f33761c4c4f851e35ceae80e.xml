@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.petstore.petstoreinfo.TagsTest" skipped="0" tests="4" time="3.01" timestamp="2023-01-10T23:07:15.103Z[Europe/London]"><testcase classname="com.petstore.petstoreinfo.TagsTest" name="Test001"/><testcase classname="com.petstore.petstoreinfo.TagsTest" name="Test002"/><testcase classname="com.petstore.petstoreinfo.TagsTest" name="Provide 500 status code when incorrect Http method is used to access resource"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.petstore.petstoreinfo.TagsTest.test003(TagsTest.java:88)&#13;
+</system-err></testcase><testcase classname="com.petstore.petstoreinfo.TagsTest" name="Provide 200 status code when correct Http method is used to access resource"/></testsuite>

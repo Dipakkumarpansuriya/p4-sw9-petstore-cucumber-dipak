@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.petstore.petstoreinfo.PetDataDrivenTest" skipped="0" tests="10" time="6.13" timestamp="2023-01-10T23:07:28.555Z[Europe/London]"><testcase classname="com.petstore.petstoreinfo.PetDataDrivenTest" name="Data driven test for adding multiple pets to the application"/></testsuite>
